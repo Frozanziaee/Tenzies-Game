@@ -1,20 +1,3 @@
-// export default function Die(props) {
-//     const styles = {
-//         backgroundColor: props.isHeld ? "#8fbc94" : "#a4b2b9"
-//     }
-    
-//     return (
-//         <button 
-//             className="dice-btn"
-//             style={styles}
-//             onClick={props.hold}
-//             aria-pressed={props.isHeld}
-//             aria-label={`Die with value ${props.value}, 
-//             ${props.isHeld ? "held" : "not held"}`}
-//         >{props.value}</button>
-//     )
-// }
-
 export default function Die(props) {
     const styles = {
         backgroundColor: props.isHeld ? "#8fbc94" : "#b7d5d4"
